@@ -24,7 +24,7 @@ $ kubectl create -f master/dns-rc.yml
 
 ### Install heapster with
 ```shell
-$ kubectl create -f maste/heapster-master/deploy/kube-config/influxdb/
+$ kubectl create -f master/heapster-master/deploy/kube-config/influxdb/
 ```
 
 ### Install the dashboard with
