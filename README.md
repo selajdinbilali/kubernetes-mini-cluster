@@ -14,8 +14,21 @@ clone this repo
 vagrant up
 
 
-## Optionally
+## Optionally (have fun)
 
-Install the dns with
+### Install the dns with
+```shell
+$ kubectl create -f master/dns-svc.yml
+$ kubectl create -f master/dns-rc.yml
+```
 
-kubectl create -f 
+### Install heapster with
+```shell
+$ kubectl create -f maste/heapster-master/deploy/kube-config/influxdb/
+```
+
+### Install the dashboard with
+```shell
+$ kubectl create -f master/kubernetes-dashboard.yaml
+```
+
